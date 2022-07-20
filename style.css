@@ -1,0 +1,613 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+}
+
+/* styles for header of the website  */
+.header{
+    display: flex;
+    background-color: black;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding-top: 50px;
+    margin-bottom: 130px;
+}
+
+.header_first_div{
+    padding-right: 70px;
+}
+
+.header_h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    margin-left: 100px;
+}
+.red{
+    color: red;
+}
+
+.header_p{
+    color: white;
+    margin-left: 100px;
+}
+
+.bottom_margin{
+    margin-bottom: 30px;
+}
+
+.header_anchor_tag{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+
+.header_image{
+    height: 500px;
+    vertical-align: top;
+      
+}
+
+
+/* styles for main section of the website  */
+
+.main_section{
+    margin-left: 140px;
+    margin-right: 140px;
+    display: flex;
+    column-gap: 20px;
+    padding-bottom: 200px;
+}
+
+.nav_pane{
+    background-color: black;
+    border-radius: 10px;
+    text-align: center; 
+    height: 300px;
+    width: 300px;
+}
+ 
+.unordered_list{
+     justify-items: center;
+     align-items: center;
+     padding: 20px;
+     list-style: none;
+}
+
+.list_padding{
+     padding:20px
+}
+
+.upcoming_matches{
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 30px;
+    color: black;
+    font-size: 15px;
+    white-space: nowrap;
+    width: 200px;
+}
+
+.all_groups{
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 30px;
+    color: black;
+    font-size: 15px;
+    white-space: nowrap;
+    width: 200px;
+}
+
+.blog{
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    padding: 10px 30px;
+    color: white;
+    font-size: 15px;   
+    width: 200px;
+}
+
+.article{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+
+
+.transfer_news{
+    border: 2px solid grey;
+    width: 312px;
+    display: inline-block;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+.image_align{
+    display: inline-flex;
+    justify-items: center;
+}
+
+.image_align_2{
+    display: inline-flex;
+    justify-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.padding{
+    padding: 20px;
+}
+
+.alignment{
+    padding-left: 20px;
+}
+
+.alignment_2{
+    padding-left: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.icons{
+    display: flex;
+}
+
+.transfer_button{
+    padding: 5px 15px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.clock{
+    padding-right: 50px;
+}
+
+.view_button{
+    display: none;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 42%;
+}
+
+
+/* styles for footer section of the website  */
+
+.footer{
+    background-color: black;
+
+}
+
+.goal{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.hr{
+    border: 1px solid grey;
+    width: 90%;
+
+}
+
+.links{
+    display: flex;
+    /* grid-template-columns: repeat(6,1fr); */
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+    column-gap: 80px;
+    padding-bottom: 100px;
+}
+
+.links2{
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
+    padding-bottom: 100px;
+}
+
+.p{
+    color: white;
+}
+
+.fa-facebook{
+    color: white;
+}
+
+.fa-instagram{
+    color: white;
+}
+
+.fa-twitter{
+    color: white;
+}
+
+
+
+
+
+
+/* media queries */
+
+/* Tablet view  */
+
+/* styles for header of the website  */
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+   
+    .header{
+        display: flex;
+        width: 734px;
+        height: 400px;
+        background-color: black;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        border-radius: 20px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .header_first_div{
+        padding-right: 20px;
+    }
+
+    .header_h1{
+        font-size: 30px;
+        font-weight: bolder;
+        color: white;
+        margin-left: 50px;
+    }
+
+    .header_p{
+        color: white;
+        margin-left: 50px;
+    }
+
+    .bottom_margin{
+        margin-bottom: 10px;
+    }
+
+    .ellipsis{
+        white-space: nowrap; 
+        width: 50px; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .ellipsis:hover{
+        overflow: visible;
+    }
+    
+    .header_anchor_tag{
+        text-decoration: none;
+        background-color: red;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px 10px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    
+
+    .header_image{
+        vertical-align: top;
+        height: 400px;
+        width: 300px;
+        padding-right: 20px;
+    }
+
+
+    /* styles for main section of the website  */
+
+    .main_section{
+        width: 734px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        padding-bottom: 50px;
+    }
+
+    
+    .nav_pane{
+        background-color: transparent;
+        border-radius: 10px;
+        height: 150px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    .unordered_list{
+        display: flex;
+        list-style: none;
+        justify-items: center;
+    }
+
+    .list_padding{
+        padding:20px;
+   }
+
+   .upcoming_matches{
+        border: 2px solid lightgray;
+        border-radius: 10px;
+        background-color: white;
+        padding: 10px 30px;
+        color: black;
+        font-size: 15px;
+        white-space: nowrap;
+        width: 200px;
+        height: 64px;
+        justify-content: center;
+    }
+
+    
+    .all_groups{
+        border: 2px solid lightgray;
+        border-radius: 10px;
+        background-color: white;
+        padding: 10px 30px;
+        color: black;
+        font-size: 15px;
+        white-space: nowrap;
+        width: 200px;
+        height: 64px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blog{
+        border: none;
+        border-radius: 10px;
+        background-color: red;
+        padding: 10px 30px;
+        color: white;
+        font-size: 15px;   
+        white-space: nowrap;
+        width: 200px;
+        height: 64px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    .article{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 20px;
+        row-gap: 30px;
+        justify-items: center;
+    }
+
+    .hidden{
+        display: none;
+    }
+
+    .view_button{
+        display: block;
+        justify-content: center;
+        justify-items: center;
+        margin-left: 42%;
+    }
+
+    .view_all{
+        text-decoration: none;
+        background-color: red;
+        color: white;
+        padding: 20px;
+        border-radius: 5px;
+        align-items: center;
+        font-size: 30px;
+        
+    }
+
+
+    /* styles for footer section of the website  */
+
+    .links{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+        padding-left: 100px;
+        padding-right: 100px;
+        justify-content: center;
+        column-gap: 80px;
+        padding-bottom: 100px;
+    }
+
+}
+
+
+
+
+
+
+
+/* Mobile view  */
+
+/* styles for header of the website  */
+
+/* styles for header of the website  */
+
+@media only screen and (max-width: 688px){
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: black;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+        border-radius: 20px;
+        padding-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .header_first_div{
+        padding-right: 20px;
+    }
+
+    .header_h1{
+        font-size: 30px;
+        font-weight: bolder;
+        color: white;
+        margin-left: 50px;
+    }
+
+    .header_p{
+        color: white;
+        margin-left: 50px;
+    }
+
+    .header_anchor_tag{
+        text-decoration: none;
+        background-color: red;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+        margin-left: 50px;
+    }
+
+    .header_image{
+        height: 245px;
+        width: 233px;
+        vertical-align: top;
+        padding-top: 40px;
+        margin-left: 50px;
+          
+    }
+
+    /* styles for main section of the website  */
+
+    .main_section{
+        width: 375px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .nav_pane{
+        background-color: transparent;
+        border-radius: 10px;
+        height: 176px;
+        width: 210px;
+        padding: 0px;
+        justify-content:center;
+        justify-items: center;
+        align-items: center;
+        margin-left: 80px;
+    }
+
+    
+    .unordered_list{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .list_padding{
+        padding:20px;
+    }
+
+    .upcoming_matches{
+        border: 2px solid lightgray;
+        border-radius: 10px;
+        background-color: white;
+        padding: 10px 30px;
+        color: black;
+        font-size: 15px;
+        white-space: nowrap;
+        width: 200px;
+        height: 64px;
+        justify-content: center;
+    }
+
+    .all_groups{
+        border: 2px solid lightgray;
+        border-radius: 10px;
+        background-color: white;
+        padding: 10px 30px;
+        color: black;
+        font-size: 15px;
+        white-space: nowrap;
+        width: 200px;
+        height: 64px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blog{
+        border: none;
+        border-radius: 10px;
+        background-color: red;
+        padding: 10px 30px;
+        color: white;
+        font-size: 15px;   
+        white-space: nowrap;
+        width: 200px;
+        height: 64px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .article{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        column-gap: 20px;
+        row-gap: 30px;
+        justify-items: center;
+        margin-top: 200px;
+    }
+
+    /* styles for footer section of the website  */
+
+    .links{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+        padding-left: 100px;
+        padding-right: 100px;
+        justify-content: center;
+        column-gap: 80px;
+        padding-bottom: 100px;
+    }
+
+
+
+}
+
+   
+
+
